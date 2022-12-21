@@ -8,7 +8,6 @@ def Get_expression(file_name):
     expression = Sum_sub(expression, 0, len(expression))
     return expression
 
-
 def Convert(file_name):
     file = open(file_name, 'r')
     text = file.readline()
